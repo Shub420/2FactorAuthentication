@@ -18,7 +18,7 @@ namespace WebApplication2factor.Controllers
         }
         [Route("")]
         // [OutputCache(Duration = 10, VaryByParam = "none")]
-        //[Route("MVCTest")]
+
         public ActionResult Index()
         {
             var studentlist = _context.Employees.ToList();

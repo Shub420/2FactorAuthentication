@@ -7,6 +7,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using WebApplication2factor.Models;
@@ -177,6 +178,13 @@ namespace WebApplication2factor.Controllers
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
+                    //roles
+
+                    //var roleStore = new RoleStore<IdentityRole>(new ApplicationDbContext());
+                    //var roleManage = new RoleManager<IdentityRole>(roleStore);
+                    //await roleManage.CreateAsync(new IdentityRole("canManageEmployee"));
+                    //await UserManager.AddToRoleAsync(user.Id, "canManageEmployee");
+
 
                     await SignInManager.SignInAsync(user, isPersistent: false, rememberBrowser: false);
 
