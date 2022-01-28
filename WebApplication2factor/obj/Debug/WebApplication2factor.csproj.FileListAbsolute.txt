@@ -112,6 +112,7 @@ D:\Shubham data\WebApplication2factor\WebApplication2factor\bin\Microsoft.Owin.S
 D:\Shubham data\WebApplication2factor\WebApplication2factor\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 D:\Shubham data\WebApplication2factor\WebApplication2factor\bin\Microsoft.Owin.Security.OAuth.xml
 D:\Shubham data\WebApplication2factor\WebApplication2factor\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Shubham data\WebApplication2factor\WebApplication2factor\obj\Debug\WebApplication2factor.csprojAssemblyReference.cache
 D:\Shubham data\WebApplication2factor\WebApplication2factor\obj\Debug\WebApplication2factor.Migrations.InitialCreate.resources
 D:\Shubham data\WebApplication2factor\WebApplication2factor\obj\Debug\WebApplication2factor.Migrations.initLoad.resources
 D:\Shubham data\WebApplication2factor\WebApplication2factor\obj\Debug\WebApplication2factor.Migrations.blankMigration.resources
@@ -120,4 +121,3 @@ D:\Shubham data\WebApplication2factor\WebApplication2factor\obj\Debug\WebApplica
 D:\Shubham data\WebApplication2factor\WebApplication2factor\obj\Debug\WebApplication2factor.csproj.CopyComplete
 D:\Shubham data\WebApplication2factor\WebApplication2factor\obj\Debug\WebApplication2factor.dll
 D:\Shubham data\WebApplication2factor\WebApplication2factor\obj\Debug\WebApplication2factor.pdb
-D:\Shubham data\WebApplication2factor\WebApplication2factor\obj\Debug\WebApplication2factor.csprojAssemblyReference.cache

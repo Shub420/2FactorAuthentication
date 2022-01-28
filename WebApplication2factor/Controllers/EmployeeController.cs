@@ -16,9 +16,10 @@ namespace WebApplication2factor.Controllers
         {
             _context = new ApplicationDbContext();
         }
+        
         [Route("")]
         // [OutputCache(Duration = 10, VaryByParam = "none")]
-
+        [AllowAnonymous]
         public ActionResult Index()
         {
             var studentlist = _context.Employees.ToList();
